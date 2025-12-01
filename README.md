@@ -35,12 +35,8 @@ I am an Information Systems student at **PUC Campinas**, focused on delivering s
 ### <img src="https://api.iconify.design/fa6-solid:chart-pie.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> Analytics
 
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Victor-Bransani&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&hide_border=true&title_color=00cba9&text_color=ffffff&icon_color=00cba9" height="150" alt="stats graph" />
-  
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Bransani&layout=compact&theme=transparent&hide_border=true&langs_count=6&title_color=00cba9&text_color=ffffff" height="150" alt="languages graph" />
+  <img src="https://github.com/Victor-Bransani/Victor-Bransani/blob/main/github-metrics.svg?raw=true" alt="Metrics" width="100%">
 </div>
-
-<br>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Victor-Bransani&theme=transparent&hide_border=true&ring=00cba9&fire=00cba9&currStreakLabel=00cba9" alt="streak stats"/>
