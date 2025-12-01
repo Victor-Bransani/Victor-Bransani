@@ -1,58 +1,49 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00cba9&height=220&section=header&text=Victor%20Bransani&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Desenvolvedor%20de%20Software%20%7C%20AI%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00cba9&height=220&section=header&text=Victor%20Bransani&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
-  
-  <a href="[https://www.linkedin.com/in/victor-bransani-036484149/](https://www.linkedin.com/in/victor-bransani-036484149/)" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  <a href="https://www.linkedin.com/in/victor-bransani-036484149/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" target="_blank" />
   </a> 
   <a href="mailto:bransani88@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" target="_blank" />
   </a>
 </div>
 
 <br>
 
-## <img src="https://api.iconify.design/fa6-solid:user-astronaut.svg?color=%2300cba9" width="25" style="vertical-align: middle;" /> Sobre Mim
-> *"Transformo café em código e problemas complexos em soluções escaláveis."*
+## <img src="https://api.iconify.design/fa6-solid:terminal.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> About Me
+> *"Transforming coffee into code and complex problems into scalable solutions."*
 
-Sou estudante de **Sistemas de informação na PUC Campinas** e atuo com foco em disponibilizar soluções que agregam valore e que tragam impacto real no dia a dia dos usuários. 
- 
-* <img src="https://api.iconify.design/fa6-solid:microchip.svg?color=%23bd93f9" width="18" style="vertical-align: middle;" /> **Atualmente:** Focado e desenvolvimento full stack, com integrações seguras e utilização de tecnologias modernas. 
-* <img src="https://api.iconify.design/fa6-solid:hand-holding-heart.svg?color=%23ff5555" width="18" style="vertical-align: middle;" /> **Comunidade:** Monitor em Estrutura de Dados e em Algoritmos de programação na PUC Campinas.
-* <img src="https://api.iconify.design/fa6-solid:lightbulb.svg?color=%23f1fa8c" width="18" style="vertical-align: middle;" /> **Superpoderes:** Raciocino lógico / sistêmico rápido, facilidade de aprender, comunicativo, noção de projetos.
+I am an Information Systems student at **PUC Campinas**, focused on delivering solutions that add value and create real impact.
+
+* <img src="https://api.iconify.design/fa6-solid:code.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Focus:** Full Stack Development, Secure Integrations, Modern Tech.
+* <img src="https://api.iconify.design/fa6-solid:users.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Community:** TA in Data Structures & Algorithms at PUC Campinas.
+* <img src="https://api.iconify.design/fa6-solid:bolt.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Soft Skills:** Systemic reasoning, fast learning, project vision.
 
 ---
 
-### <img src="https://api.iconify.design/fa6-solid:toolbox.svg?color=%2300cba9" width="25" style="vertical-align: middle;" /> Arsenal Tecnológico
+### <img src="https://api.iconify.design/fa6-solid:layer-group.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> Tech Stack
 
 <div align="center">
-
-| Front-end | Back-end & Dados | Ferramentas & DevOps |
-| :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=react,html,css,js,ts,tailwind" /> | <img src="https://skillicons.dev/icons?i=java,python,mysql,postgres,nodejs" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode" /> |
-
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,java,python,postgres,docker,git&theme=dark" />
 </div>
 
 ---
 
-### <img src="https://api.iconify.design/fa6-solid:chart-line.svg?color=%2300cba9" width="25" style="vertical-align: middle;" /> Performance no GitHub
+### <img src="https://api.iconify.design/fa6-solid:chart-pie.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> Analytics
 
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Victor-Bransani&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" height="180" alt="stats graph"  />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Victor-Bransani&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&hide_border=true&title_color=00cba9&text_color=ffffff&icon_color=00cba9" height="150" alt="stats graph" />
   
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Bransani&layout=compact&theme=dracula&hide_border=true&langs_count=6" height="180" alt="languages graph" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Bransani&layout=compact&theme=transparent&hide_border=true&langs_count=6&title_color=00cba9&text_color=ffffff" height="150" alt="languages graph" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Victor-Bransani&theme=dracula&hide_border=true" alt="streak stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Victor-Bransani&theme=transparent&hide_border=true&ring=00cba9&fire=00cba9&currStreakLabel=00cba9" alt="streak stats"/>
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
