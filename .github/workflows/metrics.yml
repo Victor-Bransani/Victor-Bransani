@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  # Atualiza todo dia à meia-noite
+  # Schedule updates (once a day at midnight)
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
@@ -16,58 +16,43 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Victor-Bransani
           
-          # === CONFIGURAÇÃO GERAL ===
+          # === CONFIGURAÇÃO DE TAMANHO E LAYOUT ===
           template: classic
-          # Limpamos a base para trazer só o essencial
-          base: header, activity, repositories
+          # A mágica está aqui: deixamos apenas o 'header' (infos do user) e 'activity' (commits)
+          base: header, activity
           config_timezone: America/Sao_Paulo
-          config_twemoji: no # Desativa emojis para ficar mais sério
+          config_twemoji: no
           
-          # === PLUGINS FOCADOS NO RECRUTADOR ===
-          
-          # 1. LINGUAGENS (O que você domina)
+          # === LINGUAGENS (O astro principal agora) ===
           plugin_languages: yes
-          # Ignora linguagens de configuração chatas
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, jupyter notebook
-          plugin_languages_limit: 5 # Top 5 é direto ao ponto
+          plugin_languages_limit: 6
           plugin_languages_sections: most-used
-          plugin_languages_details: percentage # Mostra % para dar noção de senioridade
-          # GRADIENTE TEAL: Cria um visual moderno usando sua cor
+          plugin_languages_details: percentage
+          # Gradiente Teal Moderno
           plugin_languages_colors: "github, 0: #00cba9, 1: #00a085, 2: #007a65, 3: #26a69a, 4: #4db6ac"
 
-          # 2. CALENDÁRIO ISOMÉTRICO (Sua consistência de forma visual)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # 6 meses é um período sólido
-
-          # === O "PULO DO GATO" VISUAL (CSS HACK) ===
-          # Isso força o design a ficar limpo, flat e na sua cor.
+          # === CSS HACK: LIMPEZA TOTAL ===
           extras_css: |
-            /* 1. ESCONDER O LIXO VISUAL */
+            /* 1. Esconde TUDO que não é essencial para recrutador */
             .field.followers, .field.following, .field.sponsoring, .field.starred, .field.watching, .field.packages, .field.releases, .field.licenses, .field.organizations, .field.watchers, .field.forks, .field.stars {
               display: none !important;
             }
-            /* Remove textos descritivos desnecessários */
-            .calendar .note, .isocalendar .note { display: none !important; }
-
-            /* 2. DEFINIR A PALETA DE CORES FLAT/TEAL */
+            
+            /* 2. Ajuste de Tamanho de Fonte para ficar proporcional */
+            h2 { 
+              font-size: 16px !important; 
+              color: #00cba9 !important; /* Títulos em Teal */
+              margin-bottom: 8px !important;
+            }
+            
+            /* 3. Cores e Ícones Flat */
             :root {
               --color-text-primary: #e6edf3;
               --color-text-secondary: #7d8590;
-              /* Títulos e ícones na sua cor de destaque */
-              --color-header-title: #00cba9 !important;
               --color-icon-primary: #00cba9 !important;
             }
-
-            /* 3. ESTILIZAR ÍCONES E TEXTOS */
-            h2 { margin-top: 20px !important; margin-bottom: 10px !important; font-weight: 600 !important; }
-            .field svg { fill: #00cba9 !important; color: #00cba9 !important; } /* Força ícones a serem Teal */
-            .field { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-
-            /* 4. ESTILIZAR O CALENDÁRIO ISOMÉTRICO PARA SER TEAL */
-            /* Dias sem commit (cinza escuro) */
-            .isocalendar .day[data-level="0"] { fill: #161b22 !important; stroke: #0d1117 !important; }
-            /* Níveis de atividade (Gradiente do seu Teal) */
-            .isocalendar .day[data-level="1"] { fill: #004d40 !important; stroke: #00382e !important; }
-            .isocalendar .day[data-level="2"] { fill: #00796b !important; stroke: #005f54 !important; }
-            .isocalendar .day[data-level="3"] { fill: #00a085 !important; stroke: #008770 !important; }
-            .isocalendar .day[data-level="4"] { fill: #00cba9 !important; stroke: #00a88d !important; } /* Cor principal para muita atividade */
+            .field svg { fill: #00cba9 !important; }
+            
+            /* 4. Remove bordas e fundos para parecer parte do GitHub */
+            .content { border: none !important; box-shadow: none !important; }
