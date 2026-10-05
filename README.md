@@ -1,45 +1,30 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00cba9&height=220&section=header&text=Victor%20Bransani&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=60&descAlign=50" width="100%"/>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=00cba9&height=200&section=header&text=Victor%20Bransani&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Information%20Systems%20%40%20PUC-Campinas&descSize=18&descAlignY=58" width="100%" alt="Victor Bransani — Full-Stack Developer" />
+I build full-stack web applications — from the database schema to the user interface.
+
+LinkedIn Email
+
 </div>
+About me
+I'm an Information Systems student at PUC-Campinas focused on full-stack development. I like taking complex problems and turning them into software that is simple to use, reliable and easy to maintain.
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/victor-bransani-036484149/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" target="_blank" />
-  </a> 
-  <a href="mailto:bransani88@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" target="_blank" />
-  </a>
-</div>
+Education — Bachelor's in Information Systems at PUC-Campinas (in progress)
+Teaching — Teaching Assistant for Data Structures & Algorithms
+Focus — Full-stack web apps, secure API integrations and data modeling
+Strengths — Systems thinking, fast learning and product vision
+Tech stack
+Area	Technologies
+Frontend	<img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,threejs&theme=dark" height="40" alt="React, TypeScript, Tailwind CSS, Vite, Three.js" />
+Backend	<img src="https://skillicons.dev/icons?i=java,python&theme=dark" height="40" alt="Java, Python" />
+Database	<img src="https://skillicons.dev/icons?i=postgres&theme=dark" height="40" alt="PostgreSQL" />
+DevOps & tools	<img src="https://skillicons.dev/icons?i=docker,git,github&theme=dark" height="40" alt="Docker, Git, GitHub" />
+Featured projects
+Project	What it does	Built with
+Melanoma Mapper Pro	Maps skin lesions on an interactive 3D body model and tracks each patient's melanoma analyses over time.	React · TypeScript · Three.js · Vitest · Playwright
+Sistema de Reservas	Booking platform for managing spaces and reservations, backed by a relational SQL Server schema.	React · TypeScript · Tailwind · SQL Server
+Sistema de Pedidos	Reads PDF purchase orders and extracts their line items automatically, detecting table columns from text position.	JavaScript · PDF.js · Google Apps Script
+GitHub activity
+<div align="center"> <img src="https://github.com/Victor-Bransani/Victor-Bransani/blob/main/github-metrics.svg?raw=true" width="100%" alt="GitHub metrics: most used languages and recent activity" /> <img src="https://streak-stats.demolab.com/?user=Victor-Bransani&theme=transparent&hide_border=true&ring=00cba9&fire=00cba9&currStreakLabel=00cba9" alt="GitHub contribution streak" /> </div>
+Let's connect
+Always happy to talk about software, projects and new opportunities. The fastest way to reach me is on LinkedIn or by email.
 
-<br>
-
-## <img src="https://api.iconify.design/fa6-solid:terminal.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> About Me
-> *"Transforming coffee into code and complex problems into scalable solutions."*
-
-I am an Information Systems student at **PUC Campinas**, focused on delivering solutions that add value and create real impact.
-
-* <img src="https://api.iconify.design/fa6-solid:code.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Focus:** Full Stack Development, Secure Integrations, Modern Tech.
-* <img src="https://api.iconify.design/fa6-solid:users.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Community:** TA in Data Structures & Algorithms at PUC Campinas.
-* <img src="https://api.iconify.design/fa6-solid:bolt.svg?color=%2300cba9" width="16" style="vertical-align: middle;" /> **Soft Skills:** Systemic reasoning, fast learning, project vision.
-
----
-
-### <img src="https://api.iconify.design/fa6-solid:layer-group.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,java,python,postgres,docker,git&theme=dark" />
-</div>
-
----
-
-### <img src="https://api.iconify.design/fa6-solid:chart-pie.svg?color=%2300cba9" width="20" style="vertical-align: middle;" /> Analytics
-
-<div align="center">
-  <img src="https://github.com/Victor-Bransani/Victor-Bransani/blob/main/github-metrics.svg?raw=true" alt="Metrics" width="100%">
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Victor-Bransani&theme=transparent&hide_border=true&ring=00cba9&fire=00cba9&currStreakLabel=00cba9" alt="streak stats"/>
-</div>
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00cba9&height=100&section=footer" width="100%" alt="" />
