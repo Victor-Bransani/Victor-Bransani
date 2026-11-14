@@ -11,7 +11,7 @@
 /* 2. Ajuste de Tamanho de Fonte para ficar proporcional */
 h2 { 
  font-size: 16px !important; 
- color: #00cba9 !important; /bin /boot /dev /etc /home /imagegeneration /lib /lib32 /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /sys /tmp /usr /var Títulos em Teal */
+ color: #00cba9 !important; /bin /boot /dev /etc /home /imagegeneration /lib /lib32 /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var Títulos em Teal */
  margin-bottom: 8px !important;
 }
 
@@ -90,7 +90,7 @@ h2 {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            221 Commits
+                            247 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -135,12 +135,12 @@ h2 {
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="253.41806303133598" height="8" fill="#00cba9"/>
-                    <rect mask="url(#languages-bar)" x="253.41806303133598" y="0" width="91.6265810248993" height="8" fill="#00a085"/>
-                    <rect mask="url(#languages-bar)" x="345.04464405623526" y="0" width="33.06415693003636" height="8" fill="#007a65"/>
-                    <rect mask="url(#languages-bar)" x="378.1088009862716" y="0" width="31.690746650512217" height="8" fill="#26a69a"/>
-                    <rect mask="url(#languages-bar)" x="409.79954763678387" y="0" width="26.137639382845947" height="8" fill="#4db6ac"/>
-                    <rect mask="url(#languages-bar)" x="435.9371870196298" y="0" width="24.062812980370218" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="243.6654556318692" height="8" fill="#00cba9"/>
+                    <rect mask="url(#languages-bar)" x="243.6654556318692" y="0" width="88.10039957831167" height="8" fill="#00a085"/>
+                    <rect mask="url(#languages-bar)" x="331.76585521018086" y="0" width="43.850633591556125" height="8" fill="#007a65"/>
+                    <rect mask="url(#languages-bar)" x="375.616488801737" y="0" width="36.114986249051036" height="8" fill="#26a69a"/>
+                    <rect mask="url(#languages-bar)" x="411.731475050788" y="0" width="25.131751593315265" height="8" fill="#4db6ac"/>
+                    <rect mask="url(#languages-bar)" x="436.86322664410324" y="0" width="23.136773355896707" height="8" fill="#b07219"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -152,7 +152,7 @@ h2 {
                                 TypeScript
                             </div>
                             <small>
-                                <div>55.09%</div>
+                                <div>52.97%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -163,7 +163,7 @@ h2 {
                                 C#
                             </div>
                             <small>
-                                <div>7.19%</div>
+                                <div>9.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -174,7 +174,7 @@ h2 {
                                 PHP
                             </div>
                             <small>
-                                <div>5.68%</div>
+                                <div>5.46%</div>
                             </small>
                         </div>
                     </section>
@@ -187,7 +187,7 @@ h2 {
                                 JavaScript
                             </div>
                             <small>
-                                <div>19.92%</div>
+                                <div>19.15%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -198,7 +198,7 @@ h2 {
                                 Python
                             </div>
                             <small>
-                                <div>6.89%</div>
+                                <div>7.85%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -209,7 +209,7 @@ h2 {
                                 Java
                             </div>
                             <small>
-                                <div>5.23%</div>
+                                <div>5.03%</div>
                             </small>
                         </div>
                     </section>
